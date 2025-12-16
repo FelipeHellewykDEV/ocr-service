@@ -1,0 +1,9 @@
+{
+  "name": "ocr-service",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "tesseract.js": "^5.0.5",
+    "node-fetch": "^3.3.2"
+  }
+}

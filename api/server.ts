@@ -5,7 +5,7 @@ import Tesseract from "tesseract.js";
 const app = express();
 
 app.use(cors());
-app.use(express.json({ limit: "20mb" }));
+app.use(express.json({ limit: "25mb" }));
 
 app.post("/ocr", async (req, res) => {
   try {
@@ -46,5 +46,5 @@ app.post("/ocr", async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`OCR service running on port ${PORT}`);
+  console.log("OCR service running on port", PORT);
 });

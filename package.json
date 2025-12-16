@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node api/server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "tesseract.js": "^5.0.5",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "tesseract.js": "^5.0.5"
   }
 }
